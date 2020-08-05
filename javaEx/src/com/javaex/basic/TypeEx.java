@@ -99,6 +99,7 @@ public class TypeEx {
 		//변하지 않는 데이터
 		//final을 선언부 앞에 붙이면 된다
 		//상수 식별자는 모두 대문자, 여러 단어 결합시 단어 사이에 _ 추가
+		//상수 값을 변경하면 해당 상수를 사용한 모든 코드 변경 - 코드의 가독성, 유지보수의 장점
 		final double PI = 3.14159;
 		final int SPEED_LIMIT = 110;
 		System.out.println("PI = " + PI);
