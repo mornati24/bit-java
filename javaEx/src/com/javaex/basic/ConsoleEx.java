@@ -40,7 +40,7 @@ public class ConsoleEx {
 		System.out.print("나이는? ");
 		int age = scanner.nextInt();
 		
-		System.out.println("이름은 " + name + ", 나이는 " + age );
+		System.out.println("이름은 " + name + ", 나이는 " + age);
 		//시스템 자원을 사용하는 기능 이용후 반드시 닫아주기
 		scanner.close();
 	}
