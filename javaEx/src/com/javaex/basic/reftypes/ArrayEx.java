@@ -8,7 +8,8 @@ public class ArrayEx {
 		//arrayMemoryTest();
 		//arrayNDim();
 		//arrayCopy();
-		arrayCopySystem();
+		//arrayCopySystem();
+		arraySystemCopy();
 	}
 	public static void arrayBasic() {
 		// 문자열 배열 : names -> 선언한 후 초기화
