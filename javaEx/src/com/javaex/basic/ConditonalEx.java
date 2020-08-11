@@ -17,7 +17,8 @@ public class ConditonalEx {
 		//dowhileEx();
 		//forEx();
 		//continueEx();
-		breakEx();
+		//breakEx();
+		randomEx();
 	}
 	
 	public static void ifElseEx() {
@@ -258,5 +259,16 @@ public class ConditonalEx {
 		}
 		System.out.println(num);
 	}
-	
+	public static void randomEx() {
+		// 복수번의 랜덤 (1~6) 뽑아서 합산
+		int rollCnt = 6; // 획수
+		int total = 0; // 합산변수
+		for (int i = 1; i <= rollCnt ; i++) {
+			//랜덤으로 주사위 값을 추출
+			int num = (int)(Math.random() * 6) + 1;
+			System.out.println(i + "번째 주사위 : " + num);
+			total +=num;
+		}
+		System.out.println("주사위 총합 : " + total );
+	}
 }
