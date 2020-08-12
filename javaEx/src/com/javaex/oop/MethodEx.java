@@ -20,7 +20,7 @@ public class MethodEx {
 	}
 	
 	//가변인수
-	private static double sum(double ...values) {
+	private static double sum(double ...values) { //함수 이름 같아도 다형성으로 오류 안생김(오버로딩)
 		System.out.println("인수의 갯수 : " + values.length);
 		double total = 0;
 		for (double val : values) { //향상된 for문
