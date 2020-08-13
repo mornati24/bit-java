@@ -31,7 +31,7 @@ public class MethodEx {
 	
 	//고정인수, 가변인수를 함께 사용 가능
 	//중요) 순서 : 고정인수->가변인수
-	private static void printSum(String message, double ...values) {
+	private static void printSum(String message, double ...values) { //인스턴스 화 
 		double total = sum(values);
 		System.out.println(message + " : " + total);
 	}
