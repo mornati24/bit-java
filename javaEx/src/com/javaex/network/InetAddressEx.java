@@ -1,7 +1,7 @@
 package com.javaex.network;
 
 import java.net.InetAddress;
-import java.rmi.UnknownHostException;
+import java.net.UnknownHostException;
 
 //인터넷 주소에 관련된 InetAddress 클래스 이해
 public class InetAddressEx {
